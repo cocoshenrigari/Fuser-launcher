@@ -1,0 +1,580 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1760696480048940, "dur":1168, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696480050118, "dur":54, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1760696480050194, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1760696480050208, "dur":589, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1760696480050837, "dur":494, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696480051331, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862268, "dur":145, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862413, "dur":34, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862447, "dur":69, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862516, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862535, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862538, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862545, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862546, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862552, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862553, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862559, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862560, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862565, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862566, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862574, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862575, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862580, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862581, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862587, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862588, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862596, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862597, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862604, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862605, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862611, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862619, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482862644, "dur":950, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1760696480051078, "dur":266, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696480051344, "dur":5853, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696480057204, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1760696480057362, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696480059651, "dur":91853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1760696480151576, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1760696480151677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696480151681, "dur":35690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1760696480187443, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480187644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696480187744, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480188779, "dur":241316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480430098, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696480430104, "dur":1029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480431202, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480431395, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696480431400, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480432355, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480432620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696480432625, "dur":878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480433569, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480433848, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696480433852, "dur":927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480434846, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480435057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696480435061, "dur":858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480435986, "dur":70689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480506680, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696480506686, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480507813, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480508020, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696480508026, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480509566, "dur":90860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480600431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696480600438, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480601867, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480602169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696480602176, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480603328, "dur":459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480603789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696480603794, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480605226, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480605485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696480605490, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480606593, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480606828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696480606835, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480607864, "dur":105534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480713402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696480713424, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480714661, "dur":965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480715628, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696480715638, "dur":1662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480717403, "dur":176020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480893463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696480893467, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696480895143, "dur":459326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Web.Services.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696481354473, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696481354479, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Web.Services.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696481356055, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696481356337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696481356341, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696481357492, "dur":65370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Mono.WebBrowser.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696481422865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696481422871, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Mono.WebBrowser.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696481424127, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696481424315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696481424320, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696481425396, "dur":99420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Accessibility.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696481524821, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696481524829, "dur":30544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Accessibility.dll" }}
+,{ "pid":12345, "tid":1, "ts":1760696481555470, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1760696481555570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696481555574, "dur":204613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1760696481760308, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1760696481760405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1760696481760411, "dur":4640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1760696481765148, "dur":1097115, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1760696480051360, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1760696480051361, "dur":5838, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1760696480057204, "dur":47778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1760696480104986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1760696480104992, "dur":62850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1760696480167945, "dur":581195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1760696480749144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1760696480749149, "dur":1850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1760696480751075, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1760696480751366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1760696480751373, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1760696480752491, "dur":61746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1760696480814241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1760696480814246, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1760696480815389, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1760696480815588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1760696480815592, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1760696480816661, "dur":137076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1760696480953740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1760696480953746, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1760696480954847, "dur":326918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Runtime.Serialization.Formatters.Soap.dll" }}
+,{ "pid":12345, "tid":2, "ts":1760696481281769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1760696481281774, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Runtime.Serialization.Formatters.Soap.dll" }}
+,{ "pid":12345, "tid":2, "ts":1760696481282856, "dur":180476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1760696481463336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1760696481463342, "dur":91161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1760696481554715, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1760696481554822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1760696481554925, "dur":1587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1760696481556627, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1760696481556864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1760696481556868, "dur":201855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1760696481758845, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1760696481758976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1760696481758982, "dur":6260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1760696481765357, "dur":1096974, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1760696480051394, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1760696480051394, "dur":5818, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1760696480057212, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1760696480057367, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1760696480059560, "dur":102760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1760696480162407, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1760696480162478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1760696480162483, "dur":81373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1760696480243926, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480244173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1760696480244178, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480245499, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480245808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1760696480245813, "dur":21386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480267270, "dur":57515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480324790, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1760696480324798, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480326052, "dur":93759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480419816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1760696480419821, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480420934, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480421127, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1760696480421132, "dur":927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480422128, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480422329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1760696480422335, "dur":868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480423287, "dur":852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480424142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1760696480424147, "dur":1850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480426070, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480426372, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1760696480426392, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480427617, "dur":102038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480529658, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1760696480529747, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480530787, "dur":90000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480620791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1760696480620796, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480621824, "dur":101180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480723008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1760696480723014, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480724073, "dur":43598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480767674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1760696480767680, "dur":1025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480768779, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480769032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1760696480769036, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480770022, "dur":153986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480924012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1760696480924017, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696480925040, "dur":375450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696481300494, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1760696481300500, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696481302695, "dur":108838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696481411538, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1760696481411546, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696481413257, "dur":221961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Mono.Posix.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696481635221, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1760696481635227, "dur":121456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Mono.Posix.dll" }}
+,{ "pid":12345, "tid":3, "ts":1760696481756965, "dur":11356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1760696481768324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1760696481768328, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1760696481769620, "dur":1092730, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1760696480051257, "dur":112, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1760696480051369, "dur":5827, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1760696480057204, "dur":78154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1760696480135362, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1760696480135627, "dur":31901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1760696480167637, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1760696480167819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1760696480167824, "dur":47162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1760696480215063, "dur":172352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696480387419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1760696480387441, "dur":1294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696480388812, "dur":98760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696480487576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1760696480487582, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696480488648, "dur":32752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696480521404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1760696480521409, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696480522473, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696480522672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1760696480522678, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696480523699, "dur":58106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696480581809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1760696480581817, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696480582954, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696480583266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1760696480583273, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696480584529, "dur":96431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696480680964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1760696480680969, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696480682028, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696480682207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1760696480682210, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696480683102, "dur":48287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696480731392, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1760696480731398, "dur":1485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696480732951, "dur":169669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696480902624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1760696480902629, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696480903740, "dur":116088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696481019831, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1760696481019837, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696481020896, "dur":143269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696481164170, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1760696481164190, "dur":1563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696481165852, "dur":86707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696481252564, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1760696481252572, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696481254196, "dur":648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696481254847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1760696481254854, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696481256409, "dur":77331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Drawing.Design.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696481333744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1760696481333749, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Drawing.Design.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696481334813, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Ookii.Dialogs.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696481335134, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1760696481335138, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Ookii.Dialogs.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696481336227, "dur":431947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Novell.Directory.Ldap.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696481768179, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1760696481768188, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Novell.Directory.Ldap.dll" }}
+,{ "pid":12345, "tid":4, "ts":1760696481769657, "dur":1092645, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480051272, "dur":107, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480051379, "dur":5831, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480057211, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1760696480057549, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480067483, "dur":24730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1760696480092284, "dur":34587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1760696480126877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480127077, "dur":40368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1760696480167634, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1760696480167810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480167818, "dur":24151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1760696480192042, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480192307, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480192311, "dur":910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480193287, "dur":288361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480481652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480481675, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480482787, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480482980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480482986, "dur":955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480484006, "dur":116601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480600610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480600613, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480602023, "dur":33739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480635766, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480635772, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480636893, "dur":199085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480835981, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480835987, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480837177, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480837375, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480837379, "dur":863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480838306, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480838655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480838659, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480839764, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480840220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480840224, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480841434, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480841723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480841727, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480842991, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480843289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480843295, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480844760, "dur":611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480845374, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480845381, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480846773, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480846985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480846991, "dur":27956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480875053, "dur":744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480875800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480875807, "dur":1708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480877670, "dur":512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480878184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480878189, "dur":1528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480879802, "dur":759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480880564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480880570, "dur":1798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480882472, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480882765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480882772, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480884129, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480884321, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480884344, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480885859, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480886081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480886087, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480887458, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480887661, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696480887666, "dur":2583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696480890377, "dur":384226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696481274607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696481274612, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696481276211, "dur":144760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Design.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696481420974, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696481420979, "dur":1296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Design.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696481422374, "dur":454252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Mono.Data.Sqlite.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696481876630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1760696481876636, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Mono.Data.Sqlite.dll" }}
+,{ "pid":12345, "tid":5, "ts":1760696481877978, "dur":984314, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1760696480051140, "dur":216, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1760696480051357, "dur":5844, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1760696480057204, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1760696480057525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1760696480067202, "dur":110026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1760696480177313, "dur":797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher.exe" }}
+,{ "pid":12345, "tid":6, "ts":1760696480178115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1760696480178120, "dur":1676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher.exe" }}
+,{ "pid":12345, "tid":6, "ts":1760696480179882, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1760696480180218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1760696480180516, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1760696480181833, "dur":200052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1760696480381889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1760696480381896, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1760696480383090, "dur":168122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1760696480551216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1760696480551222, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1760696480552262, "dur":31716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1760696480583982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1760696480583989, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1760696480585288, "dur":39481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1760696480624773, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1760696480624779, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1760696480626065, "dur":288941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1760696480915009, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1760696480915016, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1760696480916054, "dur":299952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1760696481216011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1760696481216018, "dur":1405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1760696481217506, "dur":137554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1760696481355063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1760696481355067, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1760696481356176, "dur":2772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1760696481358951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1760696481358956, "dur":2828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1760696481361889, "dur":370887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1760696481732780, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1760696481732786, "dur":24622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1760696481757521, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1760696481757686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1760696481757691, "dur":5525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1760696481763400, "dur":1098865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1760696480051340, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1760696480051344, "dur":5850, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1760696480057212, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1760696480057220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1760696480058615, "dur":267, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1760696480058885, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1760696480059002, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1760696480059208, "dur":2477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1760696480061687, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1760696480061764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1760696480062392, "dur":94532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1760696480156997, "dur":85043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1760696480242043, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1760696480242049, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1760696480243061, "dur":144419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1760696480387483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1760696480387488, "dur":1386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1760696480388973, "dur":569126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1760696480958117, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1760696480958123, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1760696480959287, "dur":350148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1760696481309447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1760696481309453, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1760696481311039, "dur":214817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1760696481525859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1760696481525880, "dur":29368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1760696481555344, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1760696481555441, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1760696481555445, "dur":248276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1760696481803792, "dur":1058521, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1760696480051505, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1760696480051505, "dur":5724, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1760696480057229, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1760696480057594, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1760696480074622, "dur":105138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1760696480179856, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1760696480179959, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1760696480180292, "dur":112511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1760696480292884, "dur":596461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1760696480889350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1760696480889357, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1760696480891047, "dur":580075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1760696481471126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1760696481471131, "dur":84717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1760696481555949, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1760696481556039, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1760696481556043, "dur":201022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1760696481757280, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1760696481757408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1760696481757415, "dur":2825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1760696481760346, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1760696481760446, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1760696481760449, "dur":4155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1760696481764712, "dur":1097561, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1760696480051576, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1760696480051576, "dur":5639, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1760696480057215, "dur":93863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1760696480151082, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1760696480151088, "dur":16622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1760696480167822, "dur":2488391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1760696482656216, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1760696482656335, "dur":3363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1760696482659768, "dur":202504, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696480051472, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696480051473, "dur":5796, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696480057270, "dur":80553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1760696480137841, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696480137848, "dur":29697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1760696480167651, "dur":397565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480565221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696480565477, "dur":1168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480566712, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480566951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696480566955, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480567986, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480568232, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696480568236, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480569409, "dur":48050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480617463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696480617484, "dur":1127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480618681, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480618868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696480618873, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480619876, "dur":133126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480753004, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696480753009, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480753947, "dur":101932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480855882, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696480855888, "dur":19611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480875598, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480875837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696480875842, "dur":1631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480877599, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480877870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696480877876, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480879435, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480879683, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696480879689, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480881039, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480881312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696480881318, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480882702, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480883177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696480883182, "dur":1582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480884864, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480885178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696480885184, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480886818, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480887045, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696480887051, "dur":2692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480889835, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480890123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696480890128, "dur":1227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480891456, "dur":1967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Windows.Forms.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480893457, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696480893466, "dur":3063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Windows.Forms.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696480896605, "dur":362094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Web.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696481258703, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696481258710, "dur":3232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Web.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696481262040, "dur":2508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696481264552, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696481264560, "dur":2582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696481267233, "dur":200162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.DirectoryServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696481467398, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696481467404, "dur":85911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.DirectoryServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696481553412, "dur":62899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696481616315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696481756196, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":10, "ts":1760696481758119, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1760696481758211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696481758215, "dur":4857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1760696481763380, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1760696481763624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1760696481763630, "dur":1942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1760696481765660, "dur":1096681, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1760696480051625, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1760696480051626, "dur":5649, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1760696480057275, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1760696480057576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1760696480074057, "dur":231932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1760696480306060, "dur":53455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1760696480359518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1760696480359524, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1760696480360842, "dur":36927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1760696480397773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1760696480397778, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1760696480398909, "dur":79855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1760696480478768, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1760696480478774, "dur":1086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1760696480479929, "dur":419384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1760696480899317, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1760696480899323, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1760696480900430, "dur":82653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Web.ApplicationServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1760696480983086, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1760696480983092, "dur":1026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Web.ApplicationServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1760696480984194, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1760696480984371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1760696480984376, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1760696480985415, "dur":187920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1760696481173339, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1760696481173345, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1760696481174658, "dur":126790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1760696481301451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1760696481301456, "dur":1582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1760696481303105, "dur":829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1760696481303952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1760696481303958, "dur":1400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1760696481305423, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1760696481305661, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1760696481305678, "dur":1308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1760696481307060, "dur":613135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/Fuser launcher_Data/Managed/System.ComponentModel.DataAnnotations.dll" }}
+,{ "pid":12345, "tid":11, "ts":1760696481920198, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1760696481920204, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/Fuser launcher_Data/Managed/System.ComponentModel.DataAnnotations.dll" }}
+,{ "pid":12345, "tid":11, "ts":1760696481921344, "dur":940937, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1760696480051694, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1760696480051694, "dur":5510, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1760696480057206, "dur":55328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1760696480112539, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1760696480112547, "dur":55271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1760696480167934, "dur":2684286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/fuser ui/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1760696482852224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1760696482852228, "dur":9874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/fuser ui/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1760696482862179, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1760696482862227, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1760696482864530, "dur":1475, "ph":"X", "name": "ProfilerWriteOutput" }
+,
