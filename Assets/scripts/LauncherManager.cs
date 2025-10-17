@@ -15,16 +15,16 @@ public class LauncherManager : MonoBehaviour
     [SerializeField] private Button openCustomSongsButton; // Assign in Inspector for opening custom_songs folder
     [SerializeField] private Button reloadAndLaunchButton; // Assign in Inspector for reload + launch button
     [SerializeField] private Button resetGamePathButton; // Assign in Inspector for resetting game path
+    [SerializeField] private Button quitButton; // Assign in Inspector for quitting application
     [SerializeField] private VideoPlayer videoPlayer; // Assign in Inspector for video background
     [SerializeField] private AudioSource audioSource; // Assign in Inspector for sound effects
     [SerializeField] private AudioClip hoverSound; // Assign in Inspector (e.g., hover.wav)
     [SerializeField] private AudioClip clickSound; // Assign in Inspector (e.g., click.wav)
     [SerializeField] private TextMeshProUGUI gamePathText; // Assign in Inspector for game path display
+    [SerializeField] private TextMeshProUGUI statusText; // Assign in Inspector for loading status
 
     void Start()
     {
-      
-
         // Initialize video
         if (videoPlayer != null)
         {
@@ -64,6 +64,10 @@ public class LauncherManager : MonoBehaviour
         {
             UnityEngine.Debug.LogError("GamePathText (TextMeshProUGUI) not assigned in Inspector!");
         }
+        if (statusText == null)
+        {
+            UnityEngine.Debug.LogWarning("StatusText (TextMeshProUGUI) not assigned in Inspector!");
+        }
 
         // Update game path text
         UpdateGamePathText();
@@ -80,6 +84,20 @@ public class LauncherManager : MonoBehaviour
         else
         {
             UnityEngine.Debug.LogWarning("ResetGamePathButton not assigned in Inspector!");
+        }
+
+        // Validate QuitButton
+        if (quitButton != null)
+        {
+            quitButton.onClick.AddListener(() => {
+                PlayClickSound();
+                QuitApplication();
+            });
+            UnityEngine.Debug.Log("QuitButton listener assigned.");
+        }
+        else
+        {
+            UnityEngine.Debug.LogWarning("QuitButton not assigned in Inspector!");
         }
 
         // First-launch path selection
@@ -140,6 +158,7 @@ public class LauncherManager : MonoBehaviour
         PlayerPrefs.Save();
         UpdateGamePathText();
         UnityEngine.Debug.Log("Game path reset. Will prompt for new path on next action.");
+        if (statusText != null) statusText.text = "";
     }
 
     // Update TextMeshProUGUI with the current game path
@@ -191,6 +210,26 @@ public class LauncherManager : MonoBehaviour
         }
     }
 
+    // Quit the application
+    private void QuitApplication()
+    {
+        UnityEngine.Debug.Log("Quit button pressed. Closing launcher.");
+        if (statusText != null) statusText.text = "Closing...";
+        try
+        {
+            Application.Quit();
+            UnityEngine.Debug.Log("Application.Quit() called successfully.");
+        }
+        catch (Exception e)
+        {
+            UnityEngine.Debug.LogError("Failed to quit application: " + e.Message);
+        }
+#if !UNITY_EDITOR
+        System.Diagnostics.Process.GetCurrentProcess().Kill();
+        UnityEngine.Debug.Log("Forcefully terminated process.");
+#endif
+    }
+
     // Open custom_songs folder
     void OpenCustomSongsFolder()
     {
@@ -202,44 +241,53 @@ public class LauncherManager : MonoBehaviour
             {
                 Process.Start(customSongsPath);
                 UnityEngine.Debug.Log("Opened folder: " + customSongsPath);
+                if (statusText != null) statusText.text = "Opened custom songs folder";
             }
             else
             {
                 UnityEngine.Debug.LogWarning("Custom songs folder does not exist at: " + customSongsPath);
+                if (statusText != null) statusText.text = "Custom songs folder not found";
             }
         }
         else
         {
             UnityEngine.Debug.LogWarning("No game path stored. Please select the game installation folder.");
+            if (statusText != null) statusText.text = "Select game folder";
             var paths = StandaloneFileBrowser.OpenFolderPanel("Select Game Installation Folder", "", false);
             if (paths.Length > 0 && !string.IsNullOrEmpty(paths[0]))
             {
                 PlayerPrefs.SetString(GamePathKey, paths[0]);
                 PlayerPrefs.Save();
-                UpdateGamePathText(); // Update text after new path is set
-                OpenCustomSongsFolder(); // Retry
+                UpdateGamePathText();
+                OpenCustomSongsFolder();
             }
         }
     }
 
-    // Coroutine: Delete files, wait, notify, launch game, close launcher
+    // Coroutine: Delete files, launch game, close launcher
     private IEnumerator ReloadAndLaunchGame()
     {
+        float startTime = Time.realtimeSinceStartup;
+        if (statusText != null) statusText.text = "Preparing to launch...";
+        UnityEngine.Debug.Log("Starting ReloadAndLaunchGame...");
+
         string gamePath;
         if (!PlayerPrefs.HasKey(GamePathKey))
         {
             UnityEngine.Debug.LogWarning("No game path stored. Prompting for selection.");
+            if (statusText != null) statusText.text = "Select game folder";
             var paths = StandaloneFileBrowser.OpenFolderPanel("Select Game Installation Folder", "", false);
             if (paths.Length > 0 && !string.IsNullOrEmpty(paths[0]))
             {
                 gamePath = paths[0];
                 PlayerPrefs.SetString(GamePathKey, gamePath);
                 PlayerPrefs.Save();
-                UpdateGamePathText(); // Update text after new path is set
+                UpdateGamePathText();
             }
             else
             {
                 UnityEngine.Debug.LogWarning("No folder selected. Cannot proceed.");
+                if (statusText != null) statusText.text = "No folder selected";
                 yield break;
             }
         }
@@ -247,50 +295,83 @@ public class LauncherManager : MonoBehaviour
         {
             gamePath = PlayerPrefs.GetString(GamePathKey);
         }
+        UnityEngine.Debug.Log($"Game path check completed in {(Time.realtimeSinceStartup - startTime) * 1000:F2} ms");
 
         string paksDir = Path.Combine(gamePath, "Fuser", "Content", "Paks");
         if (!Directory.Exists(paksDir))
         {
             UnityEngine.Debug.LogError("Paks directory not found: " + paksDir + ". Verify game path.");
+            if (statusText != null) statusText.text = "Paks directory not found";
             yield break;
         }
 
+        float fileDeleteStart = Time.realtimeSinceStartup;
         string pakFile = Path.Combine(paksDir, "customSongsUnlocked_P.pak");
         string sigFile = Path.Combine(paksDir, "customSongsUnlocked_P.sig");
+        bool filesDeleted = false;
+        int maxAttempts = 3;
+        int attempt = 1;
 
-        try
+        while (!filesDeleted && attempt <= maxAttempts)
         {
-            if (File.Exists(pakFile)) File.Delete(pakFile);
-            if (File.Exists(sigFile)) File.Delete(sigFile);
-            UnityEngine.Debug.Log("Deleted customSongsUnlocked files if present.");
+            bool attemptFailed = false;
+            string errorMessage = "";
+            try
+            {
+                if (File.Exists(pakFile))
+                {
+                    File.Delete(pakFile);
+                    UnityEngine.Debug.Log($"Attempt {attempt}: Deleted {pakFile}");
+                }
+                if (File.Exists(sigFile))
+                {
+                    File.Delete(sigFile);
+                    UnityEngine.Debug.Log($"Attempt {attempt}: Deleted {sigFile}");
+                }
+            }
+            catch (Exception e)
+            {
+                attemptFailed = true;
+                errorMessage = e.Message;
+                UnityEngine.Debug.LogWarning($"Attempt {attempt}: Failed to delete files: {errorMessage}");
+            }
+
+            // Verify deletion
+            if (!attemptFailed && !File.Exists(pakFile) && !File.Exists(sigFile))
+            {
+                filesDeleted = true;
+                UnityEngine.Debug.Log("File deletion successful.");
+            }
+            else
+            {
+                UnityEngine.Debug.LogWarning($"Attempt {attempt}: Files still exist or deletion failed.");
+                if (statusText != null) statusText.text = $"Retrying file deletion ({attempt}/{maxAttempts})...";
+                if (attempt < maxAttempts)
+                {
+                    yield return new WaitForSeconds(0.5f); // Wait before retry
+                }
+            }
+            attempt++;
         }
-        catch (Exception e)
+
+        if (!filesDeleted)
         {
-            UnityEngine.Debug.LogError("Failed to delete files: " + e.Message);
+            UnityEngine.Debug.LogError("Failed to delete files after maximum attempts. Aborting launch.");
+            if (statusText != null) statusText.text = "Failed to delete files";
             yield break;
         }
+        UnityEngine.Debug.Log($"File deletion took {(Time.realtimeSinceStartup - fileDeleteStart) * 1000:F2} ms");
 
-        // Wait 3 seconds (as per original script)
-        yield return new WaitForSeconds(3f);
+        if (statusText != null) statusText.text = "Library Reloaded";
+        yield return new WaitForSeconds(1f); // Wait for file system consistency
 
-        // Show notification via PowerShell
-        try
-        {
-            string psCommand = "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'FUSER', 'Library Reloaded', [System.Windows.Forms.ToolTipIcon]::None); Start-Sleep -Seconds 10; $notify.Dispose()}";
-            Process.Start("powershell.exe", "-NoProfile -ExecutionPolicy Bypass -Command \"" + psCommand + "\"");
-            UnityEngine.Debug.Log("PowerShell notification launched.");
-        }
-        catch (Exception e)
-        {
-            UnityEngine.Debug.LogError("Failed to launch PowerShell notification: " + e.Message);
-        }
-
-        // Launch the game executable
+        float gameLaunchStart = Time.realtimeSinceStartup;
         string exeDir = Path.Combine(gamePath, "Fuser", "Binaries", "Win64");
         string exePath = Path.Combine(exeDir, "FuserEOS-Win64-Shipping.exe");
         if (!File.Exists(exePath))
         {
             UnityEngine.Debug.LogError("Game executable not found: " + exePath + ". This may be a Steam version (try Fuser-Win64-Shipping.exe) or incorrect path.");
+            if (statusText != null) statusText.text = "Game executable not found";
             yield break;
         }
 
@@ -299,16 +380,31 @@ public class LauncherManager : MonoBehaviour
             string launchArguments = "-windowed -AUTH_LOGIN=unused -AUTH_PASSWORD=901dbe79901dbe79901dbe79901dbe79 -AUTH_TYPE=exchangecode -epicapp=2939f4752d4b4ace95a8e1b16e79d3f5 -epicenv=Prod -EpicPortal -epicusername=\"Arbys\" -epicuserid=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -epiclocale=en-US";
             Process.Start(exePath, launchArguments);
             UnityEngine.Debug.Log("Launched Fuser with reload arguments from: " + exePath);
+            if (statusText != null) statusText.text = "Launching Fuser...";
         }
         catch (Exception e)
         {
             UnityEngine.Debug.LogError("Failed to launch Fuser: " + e.Message);
+            if (statusText != null) statusText.text = "Failed to launch Fuser";
             yield break;
         }
+        UnityEngine.Debug.Log($"Game launch took {(Time.realtimeSinceStartup - gameLaunchStart) * 1000:F2} ms");
 
-        // Close the launcher immediately after operations
+        UnityEngine.Debug.Log($"Total ReloadAndLaunchGame took {(Time.realtimeSinceStartup - startTime) * 1000:F2} ms");
         UnityEngine.Debug.Log("All operations completed. Closing launcher.");
-        Application.Quit();
+        try
+        {
+            Application.Quit();
+            UnityEngine.Debug.Log("Application.Quit() called successfully.");
+        }
+        catch (Exception e)
+        {
+            UnityEngine.Debug.LogError("Failed to quit application: " + e.Message);
+        }
+#if !UNITY_EDITOR
+        System.Diagnostics.Process.GetCurrentProcess().Kill();
+        UnityEngine.Debug.Log("Forcefully terminated process.");
+#endif
     }
 
     void OnDestroy()
@@ -326,5 +422,26 @@ public class LauncherManager : MonoBehaviour
         {
             resetGamePathButton.onClick.RemoveAllListeners();
         }
+        if (quitButton != null)
+        {
+            quitButton.onClick.RemoveAllListeners();
+        }
+
+        // Stop video and audio
+        if (videoPlayer != null)
+        {
+            videoPlayer.Stop();
+            UnityEngine.Debug.Log("VideoPlayer stopped in OnDestroy.");
+        }
+        if (audioSource != null)
+        {
+            audioSource.Stop();
+            UnityEngine.Debug.Log("AudioSource stopped in OnDestroy.");
+        }
+    }
+
+    void OnApplicationQuit()
+    {
+        UnityEngine.Debug.Log("OnApplicationQuit called. Application is closing.");
     }
 }
